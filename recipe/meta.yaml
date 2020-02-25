@@ -8,7 +8,7 @@ source:
   sha256: 670edf72be59ce0c5d2fce6df933f1c50895c8351f250f9d192164157c2fc46e
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
   run_exports:
     - {{ pin_subpackage('ros-rosbag-storage', 'x.x') }}
